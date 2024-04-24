@@ -1,0 +1,15 @@
+Commands for database:
+
+
+CREATE DATABASE UsersDatabase;
+USE UsersDatabase;
+
+
+CREATE TABLE users_table(
+  ID BIGINT NOT NULL AUTO_INCREMENT UNIQUE,
+  name VARCHAR(100) NOT NULL,
+  surname VARCHAR(100),
+  personID VARCHAR(100) NOT NULL UNIQUE,
+  Uuid VARCHAR(100) NOT NULL UNIQUE,
+  PRIMARY KEY(ID)
+  );

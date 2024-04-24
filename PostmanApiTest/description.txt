@@ -1,0 +1,2 @@
+In the file Collection from postman there is description written in every action.
+It tells what the action should do.
